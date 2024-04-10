@@ -1,0 +1,343 @@
+ * {
+   padding: 0px;
+   margin: 0px;
+   list-style: none;
+ }
+
+ p {
+   user-select: none;
+ }
+
+ .vary_bottom {
+   height: 100%;
+   width: 100%;
+   background-color: rgb(45, 45, 51);
+ }
+
+ /* 头 */
+ .top_log {
+   background-color: rgb(250, 249, 237);
+   height: 80px;
+   width: 100%;
+ }
+
+ .top_index {
+   background-color: rgb(45, 45, 51);
+   margin: auto;
+   height: 40px;
+   width: 980px;
+ }
+
+ .top_index li {
+   text-align: center;
+   line-height: 40px;
+   height: 40px;
+   float: left;
+   width: 196px;
+   color: white;
+   font-size: 20px;
+   font-weight: 800;
+   user-select: none;
+ }
+
+ .bottom_red {
+   border-bottom: solid red 2px;
+ }
+
+ .top_index li:hover {
+   transition: 1s;
+   background-color: aliceblue;
+   color: black;
+ }
+
+ .top_index li:active {
+   transition: 0.4s;
+   background-color: rgb(178, 178, 187);
+ }
+
+ /* 身 one*/
+ .DisplayPage_one {
+
+   height: 500px;
+   width: 100%;
+   margin: auto;
+ }
+
+ .one_img {
+   padding-top: 40px;
+   margin: auto;
+   width: 800px;
+   height: 100%;
+ }
+
+ .one_img ul li img {
+   width: 800px;
+   height: 400px;
+ }
+
+ /* two */
+ .three_and_two {
+   height: 1000px;
+   width: 100%;
+   background-color: rgb(250, 249, 237);
+ }
+
+ .DisplayPage_two {
+   height: 500px;
+   width: 980px;
+   margin: auto;
+   background-color: rgb(250, 249, 237);
+ }
+
+ .two_one {
+   height: 100px;
+ }
+
+ /* 标题 */
+ .two_left {
+   margin-top: 60px;
+   float: left;
+   height: 3px;
+   width: 400px;
+   background-color: black;
+ }
+
+ .two_middle {
+   float: left;
+   margin: auto;
+   padding: auto;
+   width: 178px;
+   height: 100px;
+ }
+
+ .two_span {
+   height: 40px;
+   float: left;
+   margin-top: 40px;
+   margin-left: 4px;
+   width: 170px;
+   /* border-top: solid 2px; */
+   border-left: solid 2px;
+   border-right: solid 2px;
+ }
+
+ .two_span span {
+   text-align: center;
+   font-size: 30px;
+   font-weight: 800;
+   position: relative;
+   /* background-color: rgb(250, 249, 237); */
+   left: 8px;
+ }
+
+ .two_right {
+   margin-top: 60px;
+   float: right;
+   height: 3px;
+   width: 400px;
+   background-color: black;
+ }
+
+ .DisplayPage_two>p {
+   text-align: center;
+   font-weight: 800;
+   font-size: 20px;
+   text-decoration: underline;
+ }
+
+ /* 网站介绍 */
+ .WebsiteIntroduction {
+   margin: auto;
+   width: 880px;
+   height: 300px;
+ }
+
+ .WebsiteIntroduction ul {
+   margin-top: 40px;
+   width: 880px;
+   height: 300px;
+ }
+
+ .WebsiteIntroduction ul li {
+   float: left;
+   width: 220px;
+ }
+
+ .WebsiteIntroduction ul li div {
+   text-align: center;
+   font-weight: 1000;
+   color: white;
+   font-size: 20px;
+   margin: auto;
+   height: 30px;
+   width: 160px;
+   background-color: aquamarine;
+   overflow: hidden;
+   padding-top: 210px;
+ }
+
+ .WebsiteIntroduction ul li div a {
+   color: rgb(255, 253, 225);
+ }
+
+ /* one 1  */
+ .two_down {
+   border: none;
+   background: url(img/mc_cao.png)no-repeat center/90px 90px;
+   background-position: 0px 1px;
+   margin-top: 10px;
+   height: 60px;
+   width: 90px;
+   font-size: 25px;
+   font-weight: 800;
+   color: rgb(245, 224, 229);
+ }
+
+ .WebsiteIntroduction ul li .wi_one {
+   transition: 1s;
+   background: rgb(145, 119, 142)url(img/mc_zsj.png)no-repeat center /100px 100px;
+   background-position: 27px 75px;
+ }
+
+ .WebsiteIntroduction ul li .wi_one:hover {
+   transition: 2s;
+   background: rgb(92, 77, 90) url(img/mc_zsj.png)no-repeat center /100px 100px;
+   background-position: 27px 25px;
+   height: 100px;
+   padding-top: 140px;
+
+ }
+
+ /* two 2 */
+ .WebsiteIntroduction ul li .wi_two {
+   transition: 1s;
+   background: rgb(121, 119, 145) url(img/mc_zsg.png)no-repeat center /100px 100px;
+   background-position: 27px 75px;
+ }
+
+ .WebsiteIntroduction ul li .wi_two:hover {
+   transition: 2s;
+   background: rgb(93, 92, 119) url(img/mc_zsg.png)no-repeat center /100px 100px;
+   background-position: 27px 25px;
+   height: 100px;
+   padding-top: 140px;
+ }
+
+ /* three 3 */
+ .WebsiteIntroduction ul li .wi_three {
+   transition: 1s;
+   background: rgb(119, 135, 145) url(img/mc_zsf.png)no-repeat center /100px 100px;
+   background-position: 27px 75px;
+ }
+
+ .WebsiteIntroduction ul li .wi_three:hover {
+   transition: 2s;
+   background: rgb(78, 90, 97) url(img/mc_zsf.png)no-repeat center /100px 100px;
+   background-position: 27px 25px;
+   height: 100px;
+   padding-top: 140px;
+ }
+
+ /* for 4 */
+ .WebsiteIntroduction ul li .wi_for {
+   transition: 1s;
+   background: rgb(119, 145, 136) url(img/mc_dao.png)no-repeat center /100px 100px;
+   background-position: 27px 75px;
+ }
+
+ .WebsiteIntroduction ul li .wi_for:hover {
+   transition: 2s;
+   background: rgb(78, 95, 89) url(img/mc_dao.png)no-repeat center /100px 100px;
+   background-position: 27px 25px;
+   height: 100px;
+   padding-top: 140px;
+ }
+
+ .two_piece1 {
+   margin: auto;
+   height: 10px;
+   width: 740px;
+   background-color: black;
+ }
+
+ .two_piece2 {
+   margin: auto;
+   height: 10px;
+   width: 640px;
+   background-color: black;
+ }
+
+ /* 下拉菜单 */
+ .two_drop_down {
+   position: absolute;
+   transform: translate(34.65%, 0%);
+   margin: auto;
+   height: 350px;
+   width: 580px;
+   background: url(img/mc_bz1.png)no-repeat center /580px 100%;
+   z-index: 999999999;
+   display: none;
+ }
+
+ .two_down_close {
+   border: none;
+   background: url(img/mc_caoc.png);
+   position: relative;
+   top: 325px;
+   height: 40px;
+   width: 580px;
+   color: rgb(230, 221, 218);
+   font-size: 25px;
+   font-weight: 800;
+ }
+
+ #two_down_button {
+   position: absolute;
+   left: 30px;
+   top: 20px;
+   height: 280px;
+   width: 520px;
+   background-color: rgb(0, 0, 0, 0.7);
+ }
+
+ .two_down_iframe {
+   position: absolute;
+   left: 10px;
+   height: 260px;
+   width: 500px;
+ }
+
+ /* three*/
+ .DisplayPage_three {
+   height: 500px;
+   width: 980px;
+   margin: auto;
+   background-color: rgb(250, 249, 237);
+ }
+
+ /* for */
+ .forAndFive {
+   width: 100%;
+   background-color: rgb(190, 193, 196);
+ }
+
+ .DisplayPage_for {
+   height: 500px;
+   width: 980px;
+   margin: auto;
+   background-color: rgb(190, 193, 196);
+ }
+
+ /* 尾 */
+ .last_bottom {
+   height: 280px;
+   width: 100%;
+   margin: auto;
+ }
+
+ #span {
+   margin: auto;
+   width: 400px;
+   font-size: 30px;
+   color: brown;
+ }
