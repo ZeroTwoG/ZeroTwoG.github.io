@@ -57,14 +57,19 @@
 
  /* 身 one*/
  .DisplayPage_one {
-
+   margin: auto;
    height: 500px;
    width: 100%;
+ }
+
+ .DisplayPage_ones {
    margin: auto;
+   height: 490px;
+   width: 800px;
  }
 
  .one_img {
-   padding-top: 40px;
+   padding-top: 20px;
    margin: auto;
    width: 800px;
    height: 100%;
@@ -72,7 +77,7 @@
  }
 
  .one_img ul {
-   width: 2400px;
+   width: 3200px;
  }
 
  .one_img ul li {
@@ -84,6 +89,23 @@
  .one_img ul li img {
    width: 800px;
    height: 400px;
+ }
+
+ /* 轮播图 */
+ .one_ones {
+   padding-top: 10px;
+   margin: auto;
+   height: 15px;
+   width: 345px;
+ }
+
+ .one_ones .one_oneso {
+   margin-left: 23px;
+   float: left;
+   height: 10px;
+   width: 80px;
+   background-color: rgb(255, 255, 255);
+   border: solid 2.5px white;
  }
 
  /* two */
@@ -193,6 +215,7 @@
 
  /* one 1  */
  .two_down {
+
    border: none;
    background: url(img/mc_cao.png)no-repeat center/90px 90px;
    background-position: 0px 1px;
@@ -338,10 +361,10 @@
 
  .three_text {
    margin-top: 80px;
-   margin-left: -100px;
+   margin-left: -130px;
    float: left;
    height: 300px;
-   width: 400px;
+   width: 430px;
    background-color: rgb(126, 126, 146, 0.5);
    overflow: auto;
    border-radius: 15px;
@@ -361,7 +384,6 @@
 
  .three_text ul li a:hover {
    color: rgb(112, 255, 23);
-   border: solid 1px;
  }
 
  /* for */
