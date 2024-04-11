@@ -30,3 +30,5 @@ function two_down_one() {
 function two_down_two() {
   two_down_button.innerHTML = `<iframe src="src/zhenghebao.html" name="open_new" frameborder="0" class="two_down_iframe"></iframe>`
 }
+//循环播放图片
+

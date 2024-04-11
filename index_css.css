@@ -68,6 +68,17 @@
    margin: auto;
    width: 800px;
    height: 100%;
+   overflow: hidden;
+ }
+
+ .one_img ul {
+   width: 2400px;
+ }
+
+ .one_img ul li {
+   width: 800px;
+   height: 400px;
+   float: left;
  }
 
  .one_img ul li img {
@@ -194,13 +205,13 @@
  }
 
  .WebsiteIntroduction ul li .wi_one {
-   transition: 1s;
+   transition: 0.5s;
    background: rgb(145, 119, 142)url(img/mc_zsj.png)no-repeat center /100px 100px;
    background-position: 27px 75px;
  }
 
  .WebsiteIntroduction ul li .wi_one:hover {
-   transition: 2s;
+   transition: 1s;
    background: rgb(92, 77, 90) url(img/mc_zsj.png)no-repeat center /100px 100px;
    background-position: 27px 25px;
    height: 100px;
@@ -210,13 +221,13 @@
 
  /* two 2 */
  .WebsiteIntroduction ul li .wi_two {
-   transition: 1s;
+   transition: 0.5s;
    background: rgb(121, 119, 145) url(img/mc_zsg.png)no-repeat center /100px 100px;
    background-position: 27px 75px;
  }
 
  .WebsiteIntroduction ul li .wi_two:hover {
-   transition: 2s;
+   transition: 1s;
    background: rgb(93, 92, 119) url(img/mc_zsg.png)no-repeat center /100px 100px;
    background-position: 27px 25px;
    height: 100px;
@@ -225,13 +236,13 @@
 
  /* three 3 */
  .WebsiteIntroduction ul li .wi_three {
-   transition: 1s;
+   transition: 0.5s;
    background: rgb(119, 135, 145) url(img/mc_zsf.png)no-repeat center /100px 100px;
    background-position: 27px 75px;
  }
 
  .WebsiteIntroduction ul li .wi_three:hover {
-   transition: 2s;
+   transition: 1s;
    background: rgb(78, 90, 97) url(img/mc_zsf.png)no-repeat center /100px 100px;
    background-position: 27px 25px;
    height: 100px;
@@ -240,13 +251,13 @@
 
  /* for 4 */
  .WebsiteIntroduction ul li .wi_for {
-   transition: 1s;
+   transition: 0.5s;
    background: rgb(119, 145, 136) url(img/mc_dao.png)no-repeat center /100px 100px;
    background-position: 27px 75px;
  }
 
  .WebsiteIntroduction ul li .wi_for:hover {
-   transition: 2s;
+   transition: 1s;
    background: rgb(78, 95, 89) url(img/mc_dao.png)no-repeat center /100px 100px;
    background-position: 27px 25px;
    height: 100px;
@@ -313,6 +324,44 @@
    width: 980px;
    margin: auto;
    background-color: rgb(250, 249, 237);
+ }
+
+ .three_buttom {
+   float: left;
+   margin-top: 100px;
+   margin-left: -500px;
+   height: 350px;
+   width: 350px;
+   /* background-color: black; */
+   background: url(img/mc_fk1.png)no-repeat center/350px 350px;
+ }
+
+ .three_text {
+   margin-top: 80px;
+   margin-left: -100px;
+   float: left;
+   height: 300px;
+   width: 400px;
+   background-color: rgb(126, 126, 146, 0.5);
+   overflow: auto;
+   border-radius: 15px;
+ }
+
+ .three_text ul {
+   margin-top: 10px;
+ }
+
+ .three_text ul li a {
+   margin-left: 25px;
+   font-size: 30px;
+   font-weight: 800;
+   text-decoration: none;
+   color: rgb(253, 255, 234);
+ }
+
+ .three_text ul li a:hover {
+   color: rgb(112, 255, 23);
+   border: solid 1px;
  }
 
  /* for */
